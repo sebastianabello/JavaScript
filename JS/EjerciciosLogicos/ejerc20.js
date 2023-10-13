@@ -23,3 +23,23 @@ validarEmail();
 validarEmail(34);
 validarEmail("juan,sas,2fas@gmal.com");
 validarEmail("Juanse.abello.2004@gmail.com");
+
+//fucion de ejercicio 19 y 20
+const validarPatron = (cadena = "",patron = undefined) => {
+    if(!cadena) return console.warn("No ingresaste una cadena de texota ");
+    if(typeof cadena !== "string") return console.error(`El valor "${cadena}" ingresado, no es una cadena de texto`);
+
+    if(patron === undefined) return console.warn("No ingresaste una cadena de texota ");
+    if(patron instanceof RegExp) return console.error(`El valor "${patron}" No es una expresion regular`);
+
+    let expReg = patron.test(cadena);
+
+    ///^(([^<>()\[\]\\.,;:\s@”]+(\.[^<>()\[\]\\.,;:\s@”]+)*)|(“.+”))@((\[[0–9]{1,3}\.[0–9]{1,3}\.[0–9]{1,3}\.[0–9]{1,3}])|(([a-zA-Z\-0–9]+\.)+[a-zA-Z]{2,}))$/
+
+    ///[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})/i
+
+
+    return (expReg)
+    ? console.info(`"${email}", cumple con el patron ingresado`)
+    : console.warn(`"${email}", No cumple con el patron`)
+}
