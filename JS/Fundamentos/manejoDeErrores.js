@@ -10,7 +10,7 @@ try {
     //como no existe la anterior variable no se sigue ejecutando el try por el error y salta al catch para notificar
     console.log("Segundo mensaje del try")
 } catch (error) {
-    console.log("catc, captura cualquier erro surgido o lanzado en el try")
+    console.log("catc, captura cualquier error surgido o lanzado en el try")
 } finally { //no es muy usado finally
     console.log("El bloque finaly se ejecuta siempre al final de un unbloque try-catch")
 }
