@@ -20,3 +20,11 @@ const primerElemento = iterador.next(); // { value: 1, done: false }
 const segundoElemento = iterador.next(); // { value: 2, done: false }
 const tercerElemento = iterador.next();  // { value: 3, done: false }
 const cuartoElemento = iterador.next();  // { value: undefined, done: true }
+
+//para recorrer todos:
+
+let next = miArray.next();
+while(!next.done()){
+    console.log(next.value);
+    next = iterador.next();
+}
