@@ -1,0 +1,1 @@
+//split(): Divide la cadena en un array de subcadenas basado en un separador.
