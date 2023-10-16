@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    :root{
+        --yellow-color: #f7df1e;
+        --dark-color: #222;
+    }
+    .cards{
+        border: thin solid var(--dark-color);
+        padding: 1rem;
+    }
+    .card{
+        display: inline-block;
+        background-color: var(--dark-color);
+        color: var(--yellow-color);
+    }
+    .rotate-45{
+        transform: rotate(45deg);
+    }
+    .rotate-135{
+        transform: rotate(135deg);
+    }
+    .opacity-80{
+        opacity: .8;
+    }
+    .sepia{
+        filter: sepia(1);
+    }
+    img{
+        width: 100px;
+        height: 100px;
+    }
+
+
+</style>
+<body>
+    <h1>apis web</h1>
+    <h2>tipos d</h2>
+
+    <ul>
+        <li>Evento</li>
+        <li>Forms</li>
+        <li>Ajax - Fetch</li>
+        <li>Historial</li>
+        <li>Storage</li>
+        <li>Geolocalizacion</li>
+        <li>Drag & DB</li>
+        <li>Canvas</li>
+        <li>MatchMedia</li>
+    </ul>
+
+    <br>
+    <hr>
+    <br>
+    <h3>Manejo del DOM</h3>
+    <p id="que-es">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis facere nesciunt tenetur temporibus earum minima velit neque illum delectus non dicta quia quis saepe esse, pariatur inventore, provident sit vel!
+    </p>
+    <!-- nav#menu>ul>li*5>a{seccion $} -->
+    <nav id="menu">
+        <ul>
+            <li><a href="">seccion 1</a></li>
+            <li><a href="">seccion 2</a></li>
+            <li><a href="">seccion 3</a></li>
+            <li><a href="">seccion 4</a></li>
+            <li><a href="">seccion 5</a></li>
+        </ul>
+    </nav>
+    <input type="text" name="nombre" placeholder="Nombre">
+    <a class="link-dom" href="dom.html" style="background-color: aqua;color: blue;" data-description="Documento Object Model">Dom</a>
+    <section class="cards">
+        <figure class="card">
+            <img src="./img/pexels-athena-2582937 (1).jpg" alt="Tech">
+            <figcaption>Tech</figcaption>
+        </figure>
+        <figure class="card">
+            <img src="./img/pexels-kássia-melo-13940670 (1).jpg" alt="Animals">
+            <figcaption>Animals</figcaption>
+        </figure>
+        <figure class="card">
+            <img src="./img/pexels-clara-ngo-3866557 (1).jpg" alt="People">
+            <figcaption>People</figcaption>
+        </figure>
+        <figure class="card">
+            <img src="./img/pexels-life-of-pix-33961 (1).jpg" alt="Nature">
+            <figcaption>Nature</figcaption>
+        </figure>
+        
+    </section>
+
+    <!-- <script src="./JS/DOM/ElementosDelDocumeto.js"></script> -->
+    <!-- <script src="./JS/DOM/nodosElementos.js"></script> -->
+    <!-- <script src="./JS/DOM/atributos&Data.js"></script> -->
+    <!-- <script src="./JS/DOM/estilosYVariables.js"></script> -->
+    <!-- <script src="./JS/DOM/clases.js"></script> -->
+    <!-- <script src="./JS/DOM/textoYHtml.js"></script> -->
+    <!-- <script src="./JS/DOM/DomTraversing.js"></script> -->
+    <script src="./JS/DOM/creandoElementos.js"></script>
+</body>
+</html>
