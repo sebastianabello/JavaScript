@@ -52,3 +52,4 @@ $newCard.querySelector("figcaption").insertAdjacentText("afterbegin", "Any"); */
 //$cards.append($newCard);
 //$cards.before($newCard);
 //$cards.after($newCard);
+ 
