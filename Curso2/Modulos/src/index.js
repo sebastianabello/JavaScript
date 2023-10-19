@@ -11,6 +11,10 @@ console.log(obtenerPosts());
 import * as datos from './namedExports';
 console.log(datos.nombre);
 console.log(datos.obtenerPosts());
+import * as datos from './namedExports';
+console.log(datos.nombre);
+console.log(datos.obtenerPosts());
+
 
 /* 
 	📌 Default Imports
