@@ -41,22 +41,22 @@
 	📌 Math.floor()
 	Redondea hacia abajo un numero.
 */
-console.log(Math.floor('10.1'));
-console.log(Math.floor('10.99'));
+console.log(Math.floor("10.1"));
+console.log(Math.floor("10.99"));
 
 /*
 	📌 Math.ceil()
 	Redondea hacia arriba un numero.
 */
-console.log(Math.ceil('10.1'));
-console.log(Math.ceil('10.99'));
+console.log(Math.ceil("10.1"));
+console.log(Math.ceil("10.99"));
 
 /*
 	📌 Math.round()
 	Redondea hacia el entero mas cercano
 */
-console.log(Math.round('10.1'));
-console.log(Math.round('10.99'));
+console.log(Math.round("10.1"));
+console.log(Math.round("10.99"));
 
 /*
 	📌 Ejemplo de numero al azar de 0 a 100

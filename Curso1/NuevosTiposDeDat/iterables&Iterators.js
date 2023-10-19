@@ -1,6 +1,4 @@
-//📌"Iterables" y "Iterators" son fundamentales en JavaScript y en muchos otros lenguajes de programación. Estos conceptos se utilizan para recorrer y acceder a elementos en una secuencia de datos, como un array, una cadena de texto, un objeto Map o Set, o cualquier otra estructura que contenga múltiples elementos. 
-
-
+//📌"Iterables" y "Iterators" son fundamentales en JavaScript y en muchos otros lenguajes de programación. Estos conceptos se utilizan para recorrer y acceder a elementos en una secuencia de datos, como un array, una cadena de texto, un objeto Map o Set, o cualquier otra estructura que contenga múltiples elementos.
 
 //📌Iterable:
 //📢Un "iterable" es un objeto que tiene un método especial llamado Symbol.iterator. Este método define cómo se recorrerán los elementos del objeto.
@@ -18,13 +16,13 @@ const miArray = [1, 2, 3];
 const iterador = miArray[Symbol.iterator]();
 const primerElemento = iterador.next(); // { value: 1, done: false }
 const segundoElemento = iterador.next(); // { value: 2, done: false }
-const tercerElemento = iterador.next();  // { value: 3, done: false }
-const cuartoElemento = iterador.next();  // { value: undefined, done: true }
+const tercerElemento = iterador.next(); // { value: 3, done: false }
+const cuartoElemento = iterador.next(); // { value: undefined, done: true }
 
 //para recorrer todos:
 
 let next = miArray.next();
-while(!next.done()){
-    console.log(next.value);
-    next = iterador.next();
+while (!next.done()) {
+	console.log(next.value);
+	next = iterador.next();
 }

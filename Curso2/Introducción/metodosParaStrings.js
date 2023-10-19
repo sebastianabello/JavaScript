@@ -56,7 +56,7 @@
 	.trimStart() - Igual que .trim() pero solo elimina espacios del inicio.
 	.trimEnd() - Igual que .trim() pero solo elimina espacios del final.
 */
-const texto = '     Hola yo soy Carlos!    ';
+const texto = "     Hola yo soy Carlos!    ";
 console.log(texto);
 console.log(texto.trim());
 console.log(texto.trimStart());
