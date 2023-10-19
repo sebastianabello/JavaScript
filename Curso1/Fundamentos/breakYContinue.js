@@ -22,3 +22,11 @@ for (let i = 0; i < numero.length; i++) {
     console.log(numero[i]);
 }
 
+
+for (let i = 0; i < numero.length; i++) {
+    if(i === 5){
+        continue;
+    }
+    console.log(numero[i]);
+}
+
